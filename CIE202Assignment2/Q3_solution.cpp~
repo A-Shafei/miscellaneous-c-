@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct Drink{
+  string name;
+  double cost;
+  int number;
+};
+
+int main(){
+
+  Drink d1 = (Drink){.name = "Cola", .cost = 5.00, .number = 5};
+
+  cout << "Cost is " << d1.cost << endl;
+
+}

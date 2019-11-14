@@ -1,0 +1,13 @@
+#include "Point3d.h"
+#include "Point3d.cpp"
+#include <iostream>
+using namespace std;
+
+int main(){
+
+  Point3d p1(0, 0, 0);
+  Point3d p2(1, 1, 1);
+
+  cout << p1.distanceTo(p2) << endl;
+
+}

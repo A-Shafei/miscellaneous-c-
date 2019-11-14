@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+#include "Employee.h"
+#include "Employee.cpp"
+using namespace std;
+
+int main(){
+
+  e1 = new Employee("Dan", 1, "23 05 2011");
+
+}

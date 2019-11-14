@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+#include "Employee.h"
+using namespace std;
+
+Employee::Employee(){
+  name = "None given";
+  number = -1;
+  Hire_date = "None ginen";
+  Employee_Numbers++
+}
+
+Employee::Employee(string eName, int eNumber, string eHire_date){
+  name = eName;
+  number = eNumber;
+  Hire_date = eHire_date;
+  Employee_Numbers++
+}
+
+Employee::setHiringDate(string eHire_date){
+  Hire_date = eHire_date;
+}
+
+Employee::getEmployeeName(){
+  return name;
+}
+
+Employee::Print(){
+  
