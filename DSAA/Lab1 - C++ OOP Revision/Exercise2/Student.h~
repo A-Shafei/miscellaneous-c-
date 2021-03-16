@@ -1,0 +1,16 @@
+#ifndef
+#define STUDENT_H
+
+class Student{
+ public:
+  Student();
+  string getName();
+  int getID();
+  void printInfo();
+
+ protected:
+  string name;
+  string ID;
+};
+
+#endif

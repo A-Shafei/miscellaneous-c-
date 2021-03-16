@@ -1,0 +1,24 @@
+#include "Undergraduate.h"
+#include <iostream>
+
+Undergraduate::Undergraduate(std::string newName, int newID, int newCurrentYear)
+  : Student(newName, newID){
+  if( newCurrentYear < 0 ){
+    std::cout << "Invalid current year!" << std::endl;
+    exit(0);
+  }
+  currentYear = newCurrentYear;
+}
+
+int Undergraduate::getCurrentYear(){
+  return currentYear;
+}
+
+bool Undergraduate::pass(){
+  if( currentYear == 4 ){
+    return true;
+  }
+  currentYear++;
+  return false;
+}
+  

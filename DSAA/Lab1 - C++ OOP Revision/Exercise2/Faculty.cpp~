@@ -1,0 +1,18 @@
+#include "Faculty.h"
+#include <iostream>
+
+Faculty::Faculty(){
+  sCount = 0;
+}
+
+bool Faculty::addStudent(Student* pS){
+  sList[sCount] = pS;
+  sCount++;
+}
+
+bool dropStudent(int index){ //The question seems to not want me to use delete..
+  sList[index] = sList[sCount-1];
+  sList[sCount-1] = nullptr;
+  sCount--;
+}
+
