@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DragAndDrop.dir/main.cpp.o  -o DragAndDrop -lsfml-graphics -lsfml-window -lsfml-system 

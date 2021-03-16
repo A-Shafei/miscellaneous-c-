@@ -1,0 +1,24 @@
+Mohamed Ahmed Khalil
+Data members implementation (Cook - Order)
+Data structures implementation(Normal Orders List - VIP_PQ)
+Assigining Cooks function 
+Cookstep Function (Managing serving orders and cooks avalability)
+Events classes implmentation
+
+Khaled Ibrahim
+Simulation user Interface(Drawing - update - showing stats)
+Cookstep function (Managing breaks and break times)
+Restaurant Class Managmement
+
+Hazem Tarek
+File Loading Function - File Output function - Generating test cases 
+Mangaing Orders Statisitcs 
+Data structures Implmentation(Cooks List - Inservice List)
+
+Mohamed Abdelwahed
+Events classes 
+Priority Queue Implementation 
+Normal - Vegan - VIP Order
+(However these were either found to be incompatible with the framework we designed for the project 
+or not submitted to the rest of team and therefore was dismissed from the code)
+
