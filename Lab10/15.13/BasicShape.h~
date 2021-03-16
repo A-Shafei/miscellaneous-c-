@@ -1,0 +1,25 @@
+#ifndef BASICSHAPE_H
+#define BASICSHAPE_H
+
+class BasicShape
+{
+ private:
+  double area;
+
+ public:
+  BasicShape()
+    {
+      area = 0.0;
+    }
+  BasicShape(double sArea)
+    {
+      area = sArea;
+    }
+  void getArea()
+  {
+    return area;
+  }
+  virtual double calcArea() = 0;
+};
+
+#endif

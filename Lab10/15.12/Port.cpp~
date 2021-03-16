@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+#include "Ship.h"
+using namespace std;
+
+//Our main program that sould be able to create instances of ship and call print()
+
+int main()
+{
+  Ship S1("HMSBeegle", "1894");
+
+  S1.print();
+
+}

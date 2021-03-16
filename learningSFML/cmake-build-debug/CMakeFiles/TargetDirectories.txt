@@ -1,0 +1,3 @@
+/home/aes/C++Code/learningSFML/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/aes/C++Code/learningSFML/cmake-build-debug/CMakeFiles/learningSFML.dir
+/home/aes/C++Code/learningSFML/cmake-build-debug/CMakeFiles/edit_cache.dir

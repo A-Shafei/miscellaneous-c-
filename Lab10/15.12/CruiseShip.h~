@@ -1,0 +1,12 @@
+#ifndef CRUISESHIP_H
+#define CRUISESHIP_H
+
+class CruiseShip : Ship
+{
+ private:
+  int MaxPassengers;
+
+ public:
+  
+
+#endif

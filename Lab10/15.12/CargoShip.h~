@@ -1,0 +1,22 @@
+#ifndef CARGOSHIP_H
+#defien CARGOSHIP_H
+#include <string>
+
+class CargoShip : Ship
+{
+ private:
+  double capacity;
+
+ public:
+ CargoShip():Ship()
+    {
+      capacity = 0.0;
+    }
+ CargoShip(std::string sName, std::string sYearBuilt, double sCapacity):Ship(sName, sYearBuilt)
+    {
+      capacity = sCapacity;
+    }
+};
+
+
+#endif

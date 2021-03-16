@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+
+  string fileName;
+  fstream inputHandle;
+  fstream outputHandle;
+
+  cout << "Enter the name of the file you want to encrypt: ";
+  cin >> handle;
+
+  inputHandle.open(fileName.c_str(), ios::in);
+  outputHandle.open(fileName.append("Encrypted"), ios::out);
+
+}

@@ -1,0 +1,34 @@
+#ifndef CIRCLE_H
+#define CIRCLE_H
+#include "BasicShape.h"
+
+class Circle : public BasicShape
+{
+ private:
+  long centerX;
+  long centerY;
+  double radius;
+
+ public:
+  Circle(sCenterX, sCenterY, sRadius)
+    {
+      centerX = sCenterX;
+      centerY = sCenterY;
+      radius = sRadius;
+      calcArea();
+    }
+  long getCenterX()
+  {
+    return centerX;
+  }
+  long getCenterY()
+  {
+    return centerY;
+  }
+  void calcArea()
+  {
+    
+      
+
+
+#endif

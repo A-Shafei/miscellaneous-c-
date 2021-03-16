@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/learningSFML.dir/test2.cpp.o  -o learningSFML -lsfml-graphics -lsfml-window -lsfml-system 
