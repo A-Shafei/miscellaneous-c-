@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/InheritanceTest.dir/main.cpp.o CMakeFiles/InheritanceTest.dir/InheritanceFunk.cpp.o  -o InheritanceTest 
